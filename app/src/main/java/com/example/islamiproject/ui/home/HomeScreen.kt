@@ -39,7 +39,7 @@ class HomeScreen : AppCompatActivity() {
 
 
     }
-    fun showFragment(fragment: Fragment){
+    private fun showFragment(fragment: Fragment){
         supportFragmentManager.beginTransaction().
         replace(R.id.fragment_container,fragment).commit()
     }
