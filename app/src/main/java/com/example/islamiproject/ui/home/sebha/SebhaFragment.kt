@@ -37,7 +37,7 @@ class SebhaFragment : Fragment() {
         tvTasbeh.text= ConstantsSebha.SOBHAN_ALLAH
         tvCounter.text= "$counter"
 
-        imageSeb7a.setOnClickListener{
+        tvTasbeh.setOnClickListener{
             onClickImageSeb7a()
 
         }

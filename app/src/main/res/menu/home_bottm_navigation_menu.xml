@@ -2,20 +2,21 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:id="@+id/icon_quran"
         android:icon="@drawable/ico_quran"
-        android:title="quran" />
+        android:title="المصحف" />
 
     <item android:id="@+id/icon_hadeth"
         android:icon="@drawable/ico_hadeth"
-        android:title="Hadeth"
+        android:title="الاحاديث"
         />
     <item android:id="@+id/icon_sebha"
         android:icon="@drawable/ico_sebha"
-        android:title="Sebha"/>
+        android:title="التسبيح"/>
 
 
     <item android:id="@+id/icon_radio"
         android:icon="@drawable/ico_radio"
-        android:title="Radio"/>
+        android:title="راديو"
+        />
 
 
 </menu>
