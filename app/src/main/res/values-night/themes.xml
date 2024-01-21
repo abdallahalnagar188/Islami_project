@@ -2,6 +2,38 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.IslamiProject" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Customize your dark theme here. -->
-        <item name="colorPrimary">@color/dark_gold</item>
+
+        <item name="background">@color/dark_blue</item>
+        <item name="itemActiveIndicatorStyle">@null</item>
+        <item name="itemBackground">@color/dark_blue</item>
+        <item name="menu">@menu/home_bottm_navigation_menu</item>
+        <item name="itemIconTint">@color/color_bottom_navigation_dark</item>
+        <item name="itemIconSize">30dp</item>
+        <item name="itemRippleColor">@null</item>
+        <item name="itemTextColor">@color/color_bottom_navigation_dark</item>
+
     </style>
+    <style name="home_background">
+        <item name="android:background">@drawable/bg_dark_them</item>
+    </style>
+
+    <style name="textViewStyle">
+        <item name="android:textColor">@color/white2</item>
+    </style>
+    <style name="iconBackStyle">
+        <item name="android:tint">@color/white</item>
+    </style>
+
+    <style name="IslamiBottomNavigationStyle" parent="Base.Theme.IslamiProject" >
+        <item name="background">@color/dark_blue</item>
+        <item name="itemActiveIndicatorStyle">@null</item>
+        <item name="itemBackground">@color/dark_blue</item>
+        <item name="menu">@menu/home_bottm_navigation_menu</item>
+        <item name="itemIconTint">@color/color_bottom_navigation_dark</item>
+        <item name="itemIconSize">30dp</item>
+        <item name="itemRippleColor">@null</item>
+        <item name="itemTextColor">@color/color_bottom_navigation_dark</item>
+
+    </style>
+
 </resources>

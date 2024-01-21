@@ -18,5 +18,9 @@
         android:title="راديو"
         />
 
+    <item android:id="@+id/icon_setting"
+        android:icon="@drawable/icon_settings"
+        android:title="الاعدادات"
+        />
 
 </menu>

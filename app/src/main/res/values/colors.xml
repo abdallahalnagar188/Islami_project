@@ -4,4 +4,8 @@
     <color name="gold">#B6925F</color>
     <color name="dark_gold">#81653E</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="dark_blue">#141A2E</color>
+    <color name="gold2">#FACC1D</color>
+    <color name="white2">#FFFFFFFF</color>
 </resources>

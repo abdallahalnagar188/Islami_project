@@ -2,11 +2,32 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.IslamiProject" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-        <item name="colorPrimary">@color/dark_gold</item>
-
-
-
+        <item name="background">@color/gold</item>
+        <item name="itemActiveIndicatorStyle">@null</item>
+        <item name="itemBackground">@color/gold</item>
+        <item name="itemIconTint"> @color/color_bottom_navigation</item>
+        <item name="itemIconSize">30dp</item>
+        <item name="itemRippleColor">@null</item>
+        <item name="itemTextColor">@color/color_bottom_navigation</item>
+    </style>
+    <style name="home_background">
+        <item name="android:background">@drawable/backgroundapp</item>
+    </style>
+    <style name="textViewStyle">
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="iconBackStyle">
+        <item name="android:tint">@color/black</item>
     </style>
 
-    <style name="Theme.IslamiProject" parent="Base.Theme.IslamiProject" />
+    <style name="Theme.IslamiProject" parent="Base.Theme.IslamiProject" >
+        <item name="background">@color/gold</item>
+        <item name="itemActiveIndicatorStyle">@null</item>
+        <item name="itemBackground">@color/gold</item>
+        <item name="itemIconTint"> @color/color_bottom_navigation</item>
+        <item name="itemIconSize">30dp</item>
+        <item name="itemRippleColor">@null</item>
+        <item name="itemTextColor">@color/color_bottom_navigation</item>
+
+    </style>
 </resources>
