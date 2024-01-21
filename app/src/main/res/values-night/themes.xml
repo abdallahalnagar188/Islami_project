@@ -11,6 +11,8 @@
         <item name="itemIconSize">30dp</item>
         <item name="itemRippleColor">@null</item>
         <item name="itemTextColor">@color/color_bottom_navigation_dark</item>
+        <item name="android:statusBarColor">@color/dark_blue</item>
+
 
     </style>
     <style name="home_background">

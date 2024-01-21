@@ -9,6 +9,7 @@
         <item name="itemIconSize">30dp</item>
         <item name="itemRippleColor">@null</item>
         <item name="itemTextColor">@color/color_bottom_navigation</item>
+        <item name="android:statusBarColor">@color/dark_gold</item>
     </style>
     <style name="home_background">
         <item name="android:background">@drawable/backgroundapp</item>
