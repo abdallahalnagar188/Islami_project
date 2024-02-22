@@ -11,7 +11,7 @@ import com.example.islamiproject.databinding.FragmentHadethBinding
 import com.example.islamiproject.ui.hadeth_details.HadethDetails
 import com.example.islamiproject.ui.model.Hadeth
 
-class HadethFragment : Fragment() {
+class   HadethFragment : Fragment() {
 
     lateinit var binding: FragmentHadethBinding
     lateinit var hadethNumberAdapter: HadethNumberAdapter
@@ -28,8 +28,6 @@ class HadethFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
 
         initViews()
-
-
 
     }
 
