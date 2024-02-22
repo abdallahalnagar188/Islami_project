@@ -17,7 +17,7 @@
         android:text="Dark Mode"
         android:backgroundTint="@color/gold"
         style="@style/textViewStyle"
-        android:textSize="20sp"
+        android:textSize="22sp"
         android:padding="12dp"
         android:layout_margin="16dp"/>
 
