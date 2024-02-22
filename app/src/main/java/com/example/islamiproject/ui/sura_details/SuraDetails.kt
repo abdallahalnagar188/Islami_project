@@ -31,7 +31,7 @@ class SuraDetails : AppCompatActivity() {
         readSuraContent(fileName ?: "")
         var content = ""
         for (i in 0..suraContent.size - 1) {
-            content += suraContent.get(i) + "(${i + 1})"
+            content += suraContent.get(i) + "(${i +1})"
         }
         viewBinding.suraDetailsTv.text = content
     }
