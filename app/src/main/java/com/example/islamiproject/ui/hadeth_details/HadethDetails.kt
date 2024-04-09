@@ -8,7 +8,7 @@ import com.example.islamiproject.databinding.ActivityHadethDetailsBinding
 import com.example.islamiproject.ui.model.Hadeth
 
 class HadethDetails : AppCompatActivity() {
-    lateinit var binding: ActivityHadethDetailsBinding
+    private lateinit var binding: ActivityHadethDetailsBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityHadethDetailsBinding.inflate(layoutInflater)
@@ -26,7 +26,7 @@ class HadethDetails : AppCompatActivity() {
         binding.hadethDetailsTv.text = hadeth?.content
     }
 
-    var hadeth: Hadeth? =null
+    private var hadeth: Hadeth? =null
     private fun initParams() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
             hadeth = intent.getParcelableExtra(Constants.EXTRA_HADETH,Hadeth::class.java)

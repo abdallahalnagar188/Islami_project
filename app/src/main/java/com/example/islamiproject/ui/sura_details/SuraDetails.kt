@@ -11,8 +11,8 @@ import java.io.InputStream
 import java.io.InputStreamReader
 
 class SuraDetails : AppCompatActivity() {
-    lateinit var viewBinding: ActivitySuraDetailsBinding
-    var suraContent: MutableList<String> = mutableListOf()
+    private lateinit var viewBinding: ActivitySuraDetailsBinding
+    private var suraContent: MutableList<String> = mutableListOf()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 

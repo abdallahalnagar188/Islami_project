@@ -1,5 +1,6 @@
 package com.example.islamiproject.ui.home.settings
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -12,18 +13,19 @@ import com.example.islamiproject.databinding.FragmentSettingsBinding
 
 class SettingsFragment : Fragment() {
 
-    lateinit var viewBinding :FragmentSettingsBinding
+    private lateinit var viewBinding :FragmentSettingsBinding
 
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         // Inflate the layout for this fragment
         viewBinding = FragmentSettingsBinding.inflate(inflater,container,false)
         return viewBinding.root
     }
 
+    @SuppressLint("SetTextI18n")
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 

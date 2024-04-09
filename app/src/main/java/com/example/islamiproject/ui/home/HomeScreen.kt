@@ -12,7 +12,7 @@ import com.example.islamiproject.databinding.ActivityHomeScreenBinding
 import com.example.islamiproject.ui.home.settings.SettingsFragment
 
 class HomeScreen : AppCompatActivity() {
-    lateinit var viewBinding : ActivityHomeScreenBinding
+    private lateinit var viewBinding : ActivityHomeScreenBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         viewBinding = ActivityHomeScreenBinding.inflate(layoutInflater)
