@@ -14,7 +14,7 @@ import com.example.islamiproject.ui.model.Hadeth
 class HadethFragment : Fragment() {
 
     lateinit var binding: FragmentHadethBinding
-    lateinit var hadethNumberAdapter: HadethNumberAdapter
+    private lateinit var hadethNumberAdapter: HadethNumberAdapter
     lateinit var list: ArrayList<Hadeth>
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
