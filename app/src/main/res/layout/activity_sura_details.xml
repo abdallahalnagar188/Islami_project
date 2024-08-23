@@ -11,6 +11,7 @@
         android:id="@+id/btn_back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:contentDescription="Icon Back"
         android:src="@drawable/ico_back"
         android:layout_marginStart="18dp"
         android:padding="18dp"

@@ -1,5 +1,6 @@
 package com.example.islamiproject.ui.home.hadeth
 
+import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
@@ -14,7 +15,7 @@ class HadethNumberAdapter(var items: List<Hadeth>?) :
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val viewBinding =
-            ItemHadethNumberBinding.inflate(LayoutInflater.from(parent.context),parent,false)
+            ItemHadethNumberBinding.inflate(LayoutInflater.from(parent.context), parent, false)
         return ViewHolder(viewBinding)
     }
 
@@ -28,6 +29,9 @@ class HadethNumberAdapter(var items: List<Hadeth>?) :
             onItemClick?.onItemClick(items!![position], position)
         }
     }
+
+
+    @SuppressLint("NotifyDataSetChanged")
     fun bindItems(newList:List<Hadeth>){
         items = newList
         notifyDataSetChanged()

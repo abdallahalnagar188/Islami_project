@@ -2,10 +2,10 @@ package com.example.islamiproject.ui.home.hadeth
 
 import android.content.Intent
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.Fragment
 import com.example.islamiproject.Constants
 import com.example.islamiproject.databinding.FragmentHadethBinding
 import com.example.islamiproject.ui.hadeth_details.HadethDetails
@@ -19,7 +19,7 @@ class HadethFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         // Inflate the layout for this fragment
         binding = FragmentHadethBinding.inflate(inflater,container,false)
         return binding.root
@@ -28,8 +28,6 @@ class HadethFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
 
         initViews()
-
-
 
     }
 

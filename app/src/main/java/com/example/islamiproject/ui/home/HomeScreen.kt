@@ -1,20 +1,26 @@
 package com.example.islamiproject.ui.home
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
+import com.example.islamiproject.R
+import com.example.islamiproject.databinding.ActivityHomeScreenBinding
 import com.example.islamiproject.ui.home.hadeth.HadethFragment
 import com.example.islamiproject.ui.home.quran.QuranFragment
 import com.example.islamiproject.ui.home.radio.RadioFragment
 import com.example.islamiproject.ui.home.sebha.SebhaFragment
-import com.example.islamiproject.R
-import com.example.islamiproject.databinding.ActivityHomeScreenBinding
 import com.example.islamiproject.ui.home.settings.SettingsFragment
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class HomeScreen : AppCompatActivity() {
+
+
     private lateinit var viewBinding : ActivityHomeScreenBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         viewBinding = ActivityHomeScreenBinding.inflate(layoutInflater)
         setContentView(viewBinding.root)
         showFragment(QuranFragment())
