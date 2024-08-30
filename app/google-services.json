@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "67539066660",
+    "project_id": "islmaiapp",
+    "storage_bucket": "islmaiapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:67539066660:android:8b02307e0ccff22f79ddb1",
+        "android_client_info": {
+          "package_name": "com.example.islamiproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4tHppmjNMaOkeYPs1qLaxG3sq5yxR6J4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

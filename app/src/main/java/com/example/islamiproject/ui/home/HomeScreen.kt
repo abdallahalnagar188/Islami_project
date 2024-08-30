@@ -15,7 +15,6 @@ import dagger.hilt.android.AndroidEntryPoint
 @AndroidEntryPoint
 class HomeScreen : AppCompatActivity() {
 
-
     private lateinit var viewBinding : ActivityHomeScreenBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -27,20 +26,22 @@ class HomeScreen : AppCompatActivity() {
 
 
         viewBinding.homeNavigationView.setOnItemSelectedListener {item->
-            if (item.itemId == R.id.icon_quran){
-                showFragment(QuranFragment())
-            }
-            else if (item.itemId == R.id.icon_hadeth){
-                showFragment(HadethFragment())
-            }
-            else if (item.itemId == R.id.icon_radio){
-                showFragment(RadioFragment())
-            }
-            else if (item.itemId == R.id.icon_sebha){
-                showFragment(SebhaFragment())
-            }
-            else if (item.itemId == R.id.icon_setting){
-                showFragment(SettingsFragment())
+            when (item.itemId) {
+                R.id.icon_quran -> {
+                    showFragment(QuranFragment())
+                }
+                R.id.icon_hadeth -> {
+                    showFragment(HadethFragment())
+                }
+                R.id.icon_radio -> {
+                    showFragment(RadioFragment())
+                }
+                R.id.icon_sebha -> {
+                    showFragment(SebhaFragment())
+                }
+                R.id.icon_setting -> {
+                    showFragment(SettingsFragment())
+                }
             }
 
              return@setOnItemSelectedListener true

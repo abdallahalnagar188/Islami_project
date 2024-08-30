@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".ui.home.settings.SettingsFragment">
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/switch_mode"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -16,6 +16,8 @@
         app:layout_constraintTop_toTopOf="parent"
         android:text="Dark Mode"
         android:backgroundTint="@color/gold"
+        android:drawableEnd="@drawable/ic_dark_mode"
+        app:cornerRadius="10dp"
         style="@style/textViewStyle"
         android:textSize="20sp"
         android:padding="12dp"
