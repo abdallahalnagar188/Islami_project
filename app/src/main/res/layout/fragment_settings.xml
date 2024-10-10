@@ -15,6 +15,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:text="Dark Mode"
+        android:textAllCaps="false"
         android:backgroundTint="@color/gold"
         android:drawableEnd="@drawable/ic_dark_mode"
         app:cornerRadius="10dp"
